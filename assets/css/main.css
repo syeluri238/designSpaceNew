@@ -8,6 +8,7 @@
 body {
   font-family: 'Manrope', sans-serif;
   overflow-x: hidden;
+  font-size: 15px;
 }
 .sec-padding{
 	padding: 70px 0;
@@ -982,20 +983,17 @@ section {
   font-size: 15px;
   font-weight: 500;
 }
-#footer-banner .footer-bg h2 {
-  color: #fff;
-}
-#footer-banner .footer-bg .btn1 {
+#footer-banner .footer-bg h2,#footer-banner .footer-bg .btn1, .mobile-mobility-btn .btn1 {
   color: #fff;
   text-transform: none;
 }
-#footer-banner .footer-bg .fifth {
+#footer-banner .footer-bg .fifth, .mobile-mobility-btn .fifth {
   border-color: #fff;
 }
-#footer-banner .footer-bg .fifth:after {
+#footer-banner .footer-bg .fifth:after, .mobile-mobility-btn .fifth:after {
   background: #fff;
 }
-#footer-banner .footer-bg .fifth:hover {
+#footer-banner .footer-bg .fifth:hover, .mobile-mobility-btn .fifth:hover {
   color: #4719B2;
 }
 #footer-banner .footer-bg p {
@@ -1172,7 +1170,7 @@ section {
   height: 400px;
   width: auto;
 }
-#portfolio-card .card-1 {
+#portfolio-card .card-1, #mobility-card.card-1 {
   align-items: center;
   margin-top: 45px;
   margin-bottom: 22px;
@@ -1181,7 +1179,7 @@ section {
   padding: 50px 20px;
   padding-bottom: 0;
 }
-#portfolio-card .card-1:after {
+#portfolio-card .card-1:after,#mobility-card.card-1:after {
   content: "";
   display: block;
   position: absolute;
@@ -1190,22 +1188,22 @@ section {
   right: 0;
   height: 25%;
 }
-#portfolio-card .card-bg-1 {
+#portfolio-card .card-bg-1, #mobility-card.mobility-card-bottom {
   background: #392469;
 }
-#portfolio-card .card-bg-1:after {
+#portfolio-card .card-bg-1:after, #mobility-card.mobility-card-bottom:after {
   background: linear-gradient(180deg, rgba(58, 58, 58, 0) 0%, #7C59CB 100%);
 }
-#portfolio-card .card-bg-2 {
+#portfolio-card .card-bg-2, #mobility-card.card-bg-2 {
   background: #FFD1C0;
 }
-#portfolio-card .card-bg-2:after {
+#portfolio-card .card-bg-2:after, #mobility-card.card-bg-2:after {
   background-image: linear-gradient(180deg, rgba(255, 209, 192, 0) 0%, #CC9480 100%);
 }
-#portfolio-card .card-bg-3 {
+#portfolio-card .card-bg-3, #mobility-card.card-bg-3 {
   background: #0C1889;
 }
-#portfolio-card .card-bg-3:after {
+#portfolio-card .card-bg-3:after, #mobility-card.card-bg-3:after {
   background: linear-gradient(180deg, rgba(173, 178, 222, 0) 0%, rgba(85, 96, 205, 0.4) 100%);
 }
 #portfolio-card .card-bg-4 {
@@ -1255,6 +1253,18 @@ section {
 }
 #portfolio-card .card-bg-11:after {
   background: linear-gradient(180deg, rgba(0, 41, 64, 0) 0%, #000E16 100%);
+}
+#mobility-card.mobility-card-bottom-1 {
+  background: #0F894E;
+}
+#mobility-card.mobility-card-bottom-1:after {
+  background: linear-gradient(180deg, rgba(0, 52, 27, 0) 0%, #004D28 100%);
+}
+#mobility-card.mobility-card-bottom-2 {
+  background: #3D2400;
+}
+#mobility-card.mobility-card-bottom-2:after {
+  background: linear-gradient(180deg, rgba(17, 10, 0, 0) 0%, #140C00 100%);
 }
 /*--------------------------------------------------------------
 # ABOUT US
@@ -1381,7 +1391,7 @@ section {
   height: 600px;
 }
 .middle-service-img {
-  top: 58px;
+  top: 31px;
   left: 21px;
   width: 75%;
   height: 530px;
@@ -1400,8 +1410,7 @@ section {
   text-transform: capitalize !important;
   margin-top: 20px;
 }
-#discover p, #design-link p, #develop p, .mobility-sub-headers p{
-  font-size: 14px;
+#discover p, #design-link p, #develop p, .mobility-sub-headers p, #mobility-card p{
   padding-bottom: 20px;
 }
 #discover,#develop {
@@ -1415,22 +1424,21 @@ section {
   width: 39%;
   position: absolute;
   height: 480px;
-  top: 66px;
+  top: 35px;
   right: -60px;
   left: auto;
 }
 .timeline-arrow-round-1 {
   top: auto;
-  bottom: -115px;
-  left: 68%;
+  bottom: -90px;
+  left: 68.2%;
 }
 .timeline-arrow-4 {
   top: 50%;
   left: auto;
   right: -58px;
 }
-#mobility-cards p{
-  font-size: 14px;
+#mobility-cards p, #mobility-card p{
   padding-top: 22px;
 }
 .mobility-sub-headers {
@@ -1438,6 +1446,31 @@ section {
 }
 #mobility-card{
   margin: 38px;
+}
+.inds-card-text span{
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.inds-card-text p{
+  padding-top: 7px !important;
+}
+.card-inds-bg img{
+  width: 380px;
+    height: auto;
+    max-width: 100%;
+}
+.btn-black .btn1 {
+  color: #000;
+  text-transform: none;
+}
+.btn-black .fifth {
+  border-color: #000;
+}
+.btn-black .fifth:after {
+  background: #000;
+}
+.btn-black .fifth:hover {
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # MEDIAQUIRES
@@ -1467,6 +1500,9 @@ section {
 	#cards-section .col-md-6 {
 		width: 41%;
 	}
+  .front-card{
+    padding: 70px 0 !important;
+  }
 }
 @media only screen and (min-width: 950px) and (max-width: 1045px) {
   .h-500 {
@@ -1591,10 +1627,9 @@ section {
 }
 @media (max-width: 767px) {
   .btn1 {
-    font-size: 14px;
     padding: 13px 25px;
   }
-	p{
+	p,.btn1{
 		font-size:14px;
 	}
 	.head-para{
@@ -1606,16 +1641,10 @@ section {
 	.mhide,.slide-md-none {
 		display:none;
 	}
-	#cards-section .mt-170 {
+	#cards-section .mt-170,	#cards-section .mt--40,	#cards-section .mt-120 {
 		margin-top: 40px;
 	}
-	#cards-section .mt--40 {
-		margin-top: 40px;
-	}
-	#cards-section .mt-120 {
-		margin-top: 40px;
-	}
-	#cards-section .card .mb-flex-center {
+	#cards-section .card .mb-flex-center, #mobility-card .mobile-mobility-btn{
 		display: flex;
 		align-items: flex-end;
 		justify-content: center;
@@ -1739,5 +1768,8 @@ section {
   }
   .blog-card{
     bottom: -120px;
+  }
+  #mobility-card .card-img-bottom {
+    margin-top: 40px;
   }
 }
