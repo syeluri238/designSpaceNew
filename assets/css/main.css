@@ -43,6 +43,10 @@ p{
 .secondary-title{
   font-size: 40px;
 }
+.ux-sp {
+  font-size: 36px;
+  font-weight: 500;
+}
 .section-title{
 	font-size:29px;
 	font-weight:500;
@@ -1255,7 +1259,7 @@ section {
 /*--------------------------------------------------------------
 # ABOUT US
 --------------------------------------------------------------*/
-#about-evoke-tech h6{
+#about-evoke-tech h6, #timeline-service h6, #timeline-service h6 a{
   text-transform: uppercase;
   color: #5d4594;
 }
@@ -1339,6 +1343,103 @@ section {
     color: rgba(0, 0, 0, 0.78);
 }
 /*--------------------------------------------------------------
+# UX DESIGN
+--------------------------------------------------------------*/
+.mobile-straight-line{
+  display: none;
+}
+.time-2-img {
+  padding-left: 50px;
+}
+.timeline-img-first-row img {
+  height: 112px;
+  margin-bottom: 20px;
+}
+.time-arrow{  
+  position: absolute;
+  width: 25px;
+  z-index: 22;
+  top: -4px;
+}
+.timeline-arrow-round {
+  left: -7px;
+}
+.timeline-arrow {
+  right: 20%;
+  transform: rotate(-90deg) !important;
+}
+.timeline-arrow-1 {
+  right:-33px;
+  top: 50%;
+}
+.top-service-img, .middle-service-img,.third-service-img {
+  top: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 105%;
+  height: 600px;
+}
+.middle-service-img {
+  top: 58px;
+  left: 21px;
+  width: 75%;
+  height: 530px;
+}
+.timeline-arrow-3 {
+  top: 50%;
+  left: 17px;
+}
+.img-timeline-text-bottom {
+  position: absolute;
+  right: 40%;
+  bottom: -60px;
+  text-transform: capitalize !important;
+}
+.service-img-text-bottom, .service-text-desk {
+  text-transform: capitalize !important;
+  margin-top: 20px;
+}
+#discover p, #design-link p, #develop p, .mobility-sub-headers p{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+#discover,#develop {
+  padding-top: 80px;
+}
+.middle-col-timeline {
+  padding-left: 80px;
+  padding-top: 80px;
+}
+.third-service-img{
+  width: 39%;
+  position: absolute;
+  height: 480px;
+  top: 66px;
+  right: -60px;
+  left: auto;
+}
+.timeline-arrow-round-1 {
+  top: auto;
+  bottom: -115px;
+  left: 68%;
+}
+.timeline-arrow-4 {
+  top: 50%;
+  left: auto;
+  right: -58px;
+}
+#mobility-cards p{
+  font-size: 14px;
+  padding-top: 22px;
+}
+.mobility-sub-headers {
+  padding-right: 70px;
+}
+#mobility-card{
+  margin: 38px;
+}
+/*--------------------------------------------------------------
 # MEDIAQUIRES
 --------------------------------------------------------------*/
 @media (max-width: 1199px) {
@@ -1394,7 +1495,7 @@ section {
     font-size:22px;
   }
   .md-hide {
-    display: none;
+    display: none !important;
   }
   #header-banner .banner-bg .image-3 {
     left: 40%;
@@ -1425,14 +1526,44 @@ section {
 	}
 	#cards-section .card .card-body .card-text {
 	  font-size: 12px;
-	 }
-	 
+  }
   #industries .industries-body {
     padding-top: 20px;
     width: 100%;
   }
   #industries .industries-body.ml-25 {
     margin-left: 0%;
+  }
+  #timeline-service{
+    position: relative;
+    padding-bottom: 70px;
+  }
+  #timeline-service .sec-padding{
+    padding: 0;
+  }
+  #timeline-service .mobile-straight-line {
+    display: block !important;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+  }
+  #discover, #develop, .middle-col-timeline {
+    padding-left: 60px;
+    padding-top: 0;
+  }
+  #develop{
+    padding-left: 45px;
+  }
+  .time-arrow{
+    left: 7px;
+    top: -5px;
+  }
+  .timeline-arrow-round-1 {
+    top: auto !important;
+    bottom: 0;
+  }
+  .mobility-sub-headers {
+    padding-right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1045px) {
