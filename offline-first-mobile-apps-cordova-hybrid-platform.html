@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Evoke Design Space</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favi-icon-evoke.png" rel="icon">
+  <link href="assets/img/favi-icon-evoke.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+<!-- manrope font family -->
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- Montserrat font family -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center sticky">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <img src="assets/img/logo.png" alt="">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li class="d-lg-none">
+          <a  class="active" href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Our Works</a>
+          </li>
+          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a  href="ux-design.html">UX Design</a></li>
+              <li><a  href="mobile-development.html">Mobile Development</a></li>
+              <li><a  href="front-end-development.html">Front-End Development</a></li>
+            </ul>
+          </li>
+         
+          <li>
+            <a href="blog.html">Thoughts</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          
+          <li><a href="contact-us.html#contact-cards">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+      <img src="assets/img/toggle-image.svg" class="mobile-nav-toggle mobile-nav-show "></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+  <!-- banner section start -->
+     <!-- ======= Blog Single Section ======= -->
+     
+     <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="blog.html">Blog</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Offline First Mobile Apps Using Cordova Hybrid Platform</li>
+          </ol>
+        </nav>
+        <div class="row">
+
+          <div class="col-lg-12 entries">
+            <div class="entry-img">
+              <img src="assets/img/offline-first-mobile-apps-cordova1-blog.png" alt="" class="img-fluid">
+            </div>
+            <div class="blog-width">
+            <article class="entry entry-single">
+              <h2 class="entry-title" data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                How to Build Offline-first Mobile Apps Using Cordova Hybrid Platform
+              </h2>
+
+              <div class="entry-content" data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+               <p>Mobile applications should be designed intelligently keeping into consideration the needs and expectations of the target audience. And while developing mobile applications, our focus should always be on creating apps that are faster, smarter, and deliver the right results. In order to do so, a mobile app should be able to perform tasks with minimal clicks, be highly intuitive and offer offline support at the same time.</p>
+               <p>In this blog, we will focus on building offline-first mobile apps using the popular hybrid platform Cordova.</p>
+
+                <blockquote>
+                  <p>
+                    How to Build Offline-first Mobile Apps Using Cordova Hybrid Platform
+                  </p>
+                </blockquote>
+                <h3>Offline-first Mobile Apps</h3>   
+                <p>Offline-first mobile apps have more use cases than the ones that are connected. Although, building an offline-first mobile app is still progressing slowly, but the benefits of working seamlessly even when the WiFi is spotty or the bandwidth is low can’t be ignored. While developing apps, developers should focus on providing an offline-first feature that lets users interact with the app even when there’s no reliable connectivity.</p>
+                <p>Many enterprises have already developed offline-first mobile apps and Google is one of them. Google Maps as you know is one of the most reliable navigation service application in the market. But, with a weak internet connection, even Google Maps struggles to fetch accurate information. To resolve the issue, Google has come up with a pair ‘offline’ feature which lets you download the route even when the internet connectivity is disabled or spotty. It has features to save specific areas from the map including navigation services directly to your mobile phone or tablet and display content whenever requested.</p>
+
+                <img src="assets/img/how-to-build.webp" class="img-fluid mx-auto d-flex mt-4 mb-4" alt=""  data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                <h3>Offline-first Architecture</h3>
+                <p>We cannot show remote data when there is no internet connectivity. Hence, we will store the remote data to the device storage. When the internet is not available, we pull this data from internal storage and display it to the user. This is called an offline mechanism.</p>
+                <p>Following diagram depicts the architecture of offline functionality in a mobile app.</p>
+                <img src="assets/img/Offline-Functionality-Architecture.jpg" class="img-fluid w-50 d-flex mx-auto mt-4 mb-4" alt=""  data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                <h3>Types of Data Storage in Hybrid Mobile Apps</h3>
+                <p>Here are the 6 ways to store data in an application:</p>
+                <ul>
+                  <li><b>Session Storage:</b>It is used for temporary storage and gets cleared as soon as the application is closed. It uses a key-value pair.</li>
+                  <li><b>Local Storage: </b>It is used for persistent storage and uses a key-value pair. It can store up to 5MB of data.</li>
+                  <li><b>Cookies:</b>Cookies are often used as storage type on the web. It also uses a key-value pair.</li>
+                  <li><b>Web SQL: </b>Web SQL is web SQLite. It allows up to 5MB max data storage. Only Android and iOS have WebSQL, whereas Windows has Index DB.</li>
+                  <li><b>Native SQLite Storage:</b>It is a plugin that will point to native SQLite of the respective platform. It is easy to maintain, lightweight, and flexible. It can store unlimited data.</li>
+                  <li><b>Index DB:</b>It is a sequential database of windows phone platform. It is not easily maintainable like SQLite. It also uses key-value pair storage.</li>
+                </ul>
+                <p>Let’s explore how to build an offline mode mobile app using the popular Hybrid Platform Cordova.</p>
+                <h3>Install Following Prerequisites</h3>
+                <ul>
+                  <li>Java Development Kit 8 (JDK 8)</li>
+                  <li>Android SDK for Android build, XCode for iOS build</li>
+                  <li>NodeJS npm for CLI operations like project creation, plugins and build generations.</li>
+                </ul>
+                <h3>Create New Project using NPM</h3>
+                <ul>
+                  <li><b>Install Cordova using NPM</b></li>
+                  <li class="mx-2">Windows : $ npm install -g cordova</li>
+                  <li class="mx-2">OS X and Linux : $ sudo npm install -g cordova</li>
+                  <li><b>Create a Project</b></li>
+                  <li class="mx-2">Windows: $ cordova create foldername com.CordovaExample.OfflineSample Projectname</li>
+                  <li class="mx-2">OS X and Linux : $ sudo cordova create foldername com.CordovaExample.OfflineSample Projectname</li>
+                  <li><b>Create Platforms</b></li>
+                  <li>Windows</li>
+                  <li class="mx-2">$ cd foldername</li>
+                  <li class="mx-2">$ cordova platform add android</li>
+                  <li class="mx-2">$ cordova platform add ios</li>
+                  <li>OS X and Linux</li>
+                  <li class="mx-2">$ sudo cd foldername</li>
+                  <li class="mx-2">$ sudo cordova platform add android</li>
+                  <li class="mx-2">$ sudo cordova platform add ios</li>
+                </ul>
+                <h3>Design Patterns Required</h3>
+                <p>Here are a few points to be noted:</p>
+                <ul>
+                  <li>We use design patterns that are well-structured, maintainable and preserve code extensibility.</li>
+                  <li>The selection of a design pattern depends on the type of requirement.</li>
+                  <li>The four popular design patterns are Prototype, Module, Observer, and Singleton</li>
+                  <li>In Hybrid app, a prototype is the most commonly used design pattern, which we will use in the demo. It obeys OOPS concepts. An object created for constructor will have the prototype object.</li>
+                </ul>
+                <p>Let’s create an object for App()</p>
+                <pre class="wp-block-syntaxhighlighter-code">
+                  //constructor
+                  var App = function(){<br>
+                  var index = 0, dataLength = 0;
+                  };
+                  var app = new App(); // Creation object
+                </pre>
+                <p>If we console app object, prototype property will have constructor property. The constructor will again point to the prototype object as below:</p>
+                <pre class="wp-block-syntaxhighlighter-code">
+                  {constructor: ƒ}
+                  constructor: ƒ ()
+                  arguments: null
+                  caller: null
+                  length: 0
+                  name: "App"
+                  prototype: {constructor: ƒ}
+                  __proto__: ƒ ()
+                  [[FunctionLocation]]: VM45:1
+                  [[Scopes]]: Scopes[1]
+                  __proto__: Object
+                  </pre>
+                  <p>Let’s add another function using the prototype to the App constructor:</p>
+                  <pre class="wp-block-syntaxhighlighter-code">
+                    App.prototype.initialize = function(){
+                    document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+                    };
+                  </pre>
+                  <p>Above method will be cloned to the prototype using prototype property, like shown below. We can also extend the number of methods.</p>
+            
+                  <img src="assets/img/Prototype-Property.png" class="img-fluid w-50 mx-auto d-flex mt-4 mb-4" alt=""  data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                  <p>Any prototype methods can be called from other methods using ‘this’ keyword.</p>
+                  <h3>Offline Implementation</h3>
+                  <p>Let’s create an offline demo using a prototype design pattern with the Cordova framework. We will list down the items with download icon on the right side. The common code will run on a browser without Cordova and on any mobile OS with Cordova. On a mobile, a user can save the item by clicking on the download button in the SQLite using the native plugin.</p>
+                  <p>For the UI in Hybrid app, add required CSS, JavaScript libraries to the project in index.html</p>
+                  <p>Add CSS within the head tag</p>
+                  <pre class="brush: jscript; title: ; notranslate" title="">&nbsp;</pre>
+                  <p>And add JavaScript files at the end of the file:</p>
+                  <pre class="wp-block-syntaxhighlighter-code">
+                    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+                    <script type="text/javascript" src="js/jquery.min.js"></script>
+                    <script type="text/javascript" src="js/main.js"></script>
+                    <script type="text/javascript" src="js/cordova.js"></script> //Remove if you are running on web
+                    </pre>
+                    <p>For security reasons, it will not allow third-party URLs.</p>
+                    <p>Below is the default meta tag.</p>
+                    <pre class="wp-block-syntaxhighlighter-code">
+                      &lt;meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"&gt;</pre>
+                     <p>In order to add third-party images in the list, change the security policy as shown below.</p>
+                     <pre class="wp-block-syntaxhighlighter-code">
+                      &lt;meta http-equiv="Content-Security-Policy" content="default-src * gap: data: blob: 'unsafe-inline' 'unsafe-eval' ws: wss:; connect-src * data: blob: ws: wss:;"&gt;
+
+                     </pre>
+                   <p>Check when the document is ready to download.</p>
+                   <pre class="wp-block-syntaxhighlighter-code">
+                    var app;
+                    // Triggered when DOM loaded
+                    $(document).ready(function() {
+                    console.log("ready!");
+                    platformname = $('html').attr('platform');
+                    app = new App();
+                    if (platformname == 'web') // if web
+                    app.onDeviceReady();
+                    else
+                    app.initialize();
+                    });
+                   </pre>
+                   <p>To check whether the code is running on web or Android, we have to manually add platform attribute to the HTML tag and initialize the method.</p>
+                   <pre class="wp-block-syntaxhighlighter-code">
+                    &lt;html platform="android"&gt;
+                    App.prototype.initialize = function(){
+                    document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+                    };
+                  </pre>
+                  <p>Check for internet connection</p>
+                  <pre class="wp-block-syntaxhighlighter-code">
+                    document.addEventListener("offline", this.offline.bind(this), false);
+                    document.addEventListener("online", this.online.bind(this), false);
+                  </pre>
+                   <p>These listeners will call the mobile native internet connectivity code. So, we have to add below native plugins.</p>
+                   <p>To store data in SQLite DB, add the plugins first.</p>
+                   <pre class="wp-block-syntaxhighlighter-code">
+                    cordova plugin add cordova-plugin-network-information
+                    cordova plugin add cordova-sqlite-storage
+                    </pre>
+                    <p>We are going to show the status of the internet connection as a subheader below the navigation header. So that developers will understand which data is actually getting displayed to the end users.</p>
+                    <pre class="wp-block-syntaxhighlighter-code">
+                      App.prototype.offline = function() {
+                      $('#internet_div').css('background-color', 'rgba(189, 33, 48, 0.35)'); //Show status
+                      $('#internet_div p').text('Internet connection is unavailable');
+                      };
+                      App.prototype.online = function() {
+                      $('#internet_div').css('background-color', 'rgba(40, 167, 69, 0.39)'); // Show status
+                      $('#internet_div p').text('Internet connection is available');
+                      app.index = 0;
+                      app.loadListPage();
+                      };
+                    </pre>
+                  <p>If the internet is available, loadListPage() method will be called else loadOfflineListPage() method will be called.</p>
+                  <pre class="wp-block-syntaxhighlighter-code">
+                    App.prototype.initiateListCall = function() {
+                    if (checkConnection())
+                    this.loadListPage();
+                    else {
+                    this.offline();
+                    this.loadOfflineListPage();
+                    }
+                    };
+                    App.prototype.repeatuntilallload = function() {
+                    app.index++;
+                    if (app.index &lt; app.dataLength)
+                    this.loadListPage();
+                    else
+                    this.addEvents();
+                    };
+                    App.prototype.loadListPage = function() {
+                    var srcdownload;
+                    checkifexists(data_arr[app.index], function(b) {
+                    if (!b)
+                    srcdownload = “img/download.png”;
+                    else
+                    srcdownload = “img/downloadhighlite.png”;
+                    var data = ‘&lt;ul class=”listgroup”&gt;&lt;li onclick=”app.movenext(‘+app.index+’,true);”&gt;&lt;div class=”row “&gt;&lt;div class=”col-4 col-sm-3 col-md-2″&gt;’ + ‘&lt;img src=”‘ + data_arr[app.index].img + ‘” width=”100″ height=”100″ class=”mar10″&gt;’ + ‘&lt;/div&gt;’ + ‘&lt;div class=”col-6 col-sm-7 col-md-4 paddingLeft0 rel”&gt;&lt;div class=”abscenter”&gt;’ + ‘&lt;h4 class=”marg0 headerText”&gt;Item’ + (app.index + 1) + ‘&lt;/h4&gt;’ + ‘&lt;p class=”hinttext”&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry&lt;/p&gt;’ + ‘&lt;/div&gt;&lt;/div&gt;’ + ‘&lt;div class=”col-2 col-sm-2 col-md-6 tac downloadImages”&gt;’ + ‘&lt;img src=’ + srcdownload + ‘ width=”40″ height=”40″ class=”downloadImage margt40″ id=”imagedown’+app.index+'” clickattr=’+ app.index+’&gt;’ + ‘&lt;/div&gt;’ + ‘&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;’;
+                    $(‘#listview1’).append(data);
+                    app.repeatuntilallload();
+                    });
+                    };
+                  </pre>
+                  <p>read() method will fetch the offline data from the SQLite database. In this demo, we are using static array data as shown below.</p>
+                  <pre class="wp-block-syntaxhighlighter-code">
+                    var data_arr = [{text: “Item1″,img:””}]
+                    App.prototype.loadOfflineListPage = function() {
+                    read(function(rowArray) {
+                    if (rowArray.length == 0)
+                    alert(“Offline data not found”);
+                    offlineArray = rowArray;
+                    for (var i = 0; i &lt; rowArray.length; i++) {
+                    var data = ‘&lt;ul class=”listgroup”&gt;&lt;li onclick=”app.movenext(‘+app.index+’,false);”&gt;&lt;div class=”row “&gt;&lt;div class=”col-4 col-sm-2″&gt;’ + ‘&lt;img src=”‘ + rowArray.item(i).img + ‘” width=”100″ height=”100″ class=”mar10″&gt;’ + ‘&lt;/div&gt;’ + ‘&lt;div class=”col-7 col-sm-10 paddingLeft0 rel”&gt;&lt;div class=”abscenter”&gt;’ + ‘&lt;h4 class=”marg0 headerText”&gt;Item’ + (i + 1) + ‘&lt;/h4&gt;’ + ‘&lt;p class=”hinttext”&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry&lt;/p&gt;’ + ‘&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;’;
+                    $(‘#listview1’).append(data);
+                    }
+                    });
+                    stopLoader();
+                    };
+                  </pre>
+                  <p>If we’re creating listview dynamically, we have to add Events to download file icon to find out which item has to be downloaded into the database.</p>
+                  <pre class="wp-block-syntaxhighlighter-code">
+                    //Add Events to the dynamic list
+                    App.prototype.addEvents = function() {
+                    $(‘.downloadImage’).off(‘click’);
+                    $(‘.downloadImage’).on(‘click’,function(event ){
+                    event.stopPropagation();
+                    app.downloadImagesFromUrl($(this).attr(‘clickattr’));
+                    });
+                    }
+                  </pre>
+                  <p>We must remove the event listener when we are adding listener dynamically to any HTML element. Otherwise, the event may trigger more than once.</p>
+                  <h3>SQLite CRUD Operations</h3>
+                  <p>We have to open the database using a database name with the location of the database file. First, we will check the existing plugin in the app to open the database. If the creation of a database fails, an error popup will be displayed, else we will perform CRUD operations.</p>
+                  <pre class="wp-block-syntaxhighlighter-code">
+                    //create DB
+                    function openDatabase(callback) {
+                    if (!window.sqlitePlugin) {
+                    callback(true);
+                    } else {
+                    db = window.sqlitePlugin.openDatabase(
+                    // options
+                    {
+                    name: “ImageCache.db”,
+                    location: 1 // for iOS (0=Documents (default, visible in iTunes, backed up by iCloud), 1=Library (not visible in iTunes, backed up by iCloud, 2=Library/LocalDatabase (not visible in iTunes, not backed up by iCloud))
+                    },
+                    // success callback
+                    function(msg) {
+                    console.log(“success——–&gt;: ” + msg);
+                    callback(true);
+                    },
+                    // error callback
+                    function(msg) {
+                    console.log(“error: ” + msg);
+                    alert(“oops! Something went wrong”);
+                    }
+                    );
+                    }
+                    }
+                    //Insert in to DB
+                    function insert(imageurl,_text,imgblob){
+                    db.transaction(function(tx) {
+                    tx.executeSql(“CREATE TABLE IF NOT EXISTS listdata (id integer primary key,imageurl text, img text,data text)”);
+                    tx.executeSql(
+                    “INSERT INTO listdata (imageurl,img,data) VALUES (?,?,?)”,
+                    [imageurl,imgblob,_text],
+                    function(tx, res) {
+                    console.log(“insertId: ” + res.insertId + “, rows affected: ” + res.rowsAffected);
+                    },
+                    function(tx, res) {
+                    console.log(‘error: ‘ + res.message);
+                    });
+                    });
+                    }
+                    // Verify the item before insert in DB. Removes duplication
+                    function checkifexists(imgurl, callback) {
+                    if (!window.sqlitePlugin) {
+                    callback(false);
+                    } else {
+                    console.log(imgurl);
+                    db.transaction(function(tx) {
+                    tx.executeSql(
+                    “select * from listdata where imageurl=?;”, [imgurl],
+                    function(tx, res) {
+                    // alert(“rows: ” + res.rows);
+                    if (res.rows.length &gt; 0)
+                    callback(true);
+                    else
+                    callback(false);
+                    },
+                    function(tx, res) {
+                    console.log(‘error: ‘ + res.message);
+                    callback(false);
+                    });
+                    });
+                    }
+                    }
+                  </pre>
+                  <p>We have image URLs which will automatically fetch the image byte array and show image tag SRC attribute. But in an offline mode, we just cannot store the image URL, hence we convert the image URL to base64 by using the below method.</p>
+                  <pre class="wp-block-syntaxhighlighter-code">
+                    //Convert image url to base 64
+                    App.prototype.downloadImagesFromUrl = function(index) {
+                    if (platformname == ‘web’) { //web platform
+                    alert(“Cannot save data in to sqlite on web “);
+                    return;
+                    }
+                    if (!checkConnection()) { // internet is unavailable
+                    alert(“Cannot download as internet not available”);
+                    return;
+                    }
+                    checkifexists(data_arr[index], function(b) {
+                    if (!b) { // if not exists
+                    toDataUrl(data_arr[index], function(myBase64) {
+                    //console.log(myBase64); // myBase64 is the base64 string
+                    stopLoader();
+                    alert(“saved on device”);
+                    $(‘#imagedown’+index).src(‘img/downloadhighlite.png’)
+                    });
+                    } else // base64 already exists in the database
+                    alert(“Already exists”);
+                    });
+                    };
+                  </pre>
+                  <h3>Use Cases to Test</h3>
+                  <ul>
+                    <li>On launching the app, the user will see the status of internet connection just below the header as “Internet is not available” when WiFi is unavailable.</li>
+                    <li>If any offline data exists in the local storage, the user will see a list of offline data/image/status.</li>
+                    <li>If the user clicks on any one of the items, it will navigate to the next page and display the information about that item (even when the connection is unavailable).</li>
+                    <li>If no data exists, it will display <em>‘Offline data is not available.’</em></li>
+                    <li>When internet connectivity is available, automatically the offline data will be queued to be uploaded via an API. This process happens seamlessly in the background.</li>
+                    </ul>
+                    <h3>Offline Mode Advantages</h3>
+                    <ul>
+                      <li>Offline storage is useful when there is a large number of data/images/videos to be called from API. Usually, it takes a lot of time to load heavy data from the server. So, we will call the API once, store the data in the local storage and display it to the user as and when required. The local database would be altered when changes take place in the server.</li>
+                      <li>SQLite is lightweight, simple and faster than file operations.</li>
+                      <li>In remote areas, where there is a lack of internet connectivity, offline mode helps in business continuity for field persons.</li>
+                      <li>Offline-first mobile apps are extremely beneficial for e-commerce applications, offline maps, pre-sales, and product configuration applications.</li>
+                      </ul>
+                <h3>Disadvantages</h3>
+                <ul>
+                  <li>When offline, the data displayed to the user may not be up to date.</li>
+                  <li>Although there are no limitations on max data storage in SQLite, it is recommended to keep the process simple and flexible. Storage depends on the phone’s storage capacity.</li>
+                  <li>To implement an offline mode, mobile app code changes have to made in both API and the app to add queuing, while syncing support.</li>
+                  </ul>
+                  <p>Through this blog post, I have tried to exhibit how Offline-first Mobile Apps can be used to build compelling applications that can work seamlessly, even when there is low to no internet connectivity. Which eventually will lead to better user experiences even in challenging network connectivity scenarios such as being stuck in a train tunnel, having to rely on over-crowded conference Wi-Fi, or passing through a ‘No-Network’ zone. And it’s now safe to say that apps working on offline mode ensure a leg up on the competition, and greater customer loyalty.</p>
+                  <h3>Evoke’s Hybrid App Development Services</h3>
+                  <p>The hybrid app development experts at Evoke understand the growing needs and complexity of a modern mobile enterprise and build reliable and robust mobile applications that work seamlessly across all platforms. Our innovative and feature-rich hybrid mobile apps enable our clients to reduce costs and drive maximum return on investment. Our unparalleled hybrid app development, maintenance, and support services ensure optimized performance of mobile apps across devices. To learn more about Evoke’s hybrid app development services, please talk to us at +1 (937) 660-4923 or fill our online form.</p>
+                </div>
+            </article><!-- End blog entry --> 
+
+            <div class="blog-author d-flex align-items-center"  data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="900">
+              <img src="assets/img/Nagaraju-Gaddam.webp" class="rounded-circle float-left" alt="">
+              <div>
+               <h4 class="mb-2">Nagaraju Gaddam</h4>
+               <p>works as a Senior Technical Associate at Evoke technologies with hands-on experience of working on various technologies and frameworks such as Android, Cordova, Kony, Xamarin and React Native. He calls himself a tech enthusiast and in his personal time, loves spending quality time with his kid and the family.</p> 
+              </div>
+            </div><!-- End blog author bio -->
+
+            <section id="contact-cards" class="mt-4">
+              <div class="pt-0">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12" data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                      <h3>Leave a Reply</h3>
+                      <p class="pb-0 mb-0">Your email address will not be published. Required fields are marked *</p>
+                      <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
+                      <script>
+                      
+                        hbspt.forms.create({
+                      
+                          region: "na1",
+                      
+                          portalId: "597901",
+                      
+                          formId: "9e9f3c64-5e1a-4d9e-a2e0-fd4910eb5fc3"
+                      
+                        });
+                      
+                      </script>
+                    </div>
+                  </div>
+            
+                </div>
+              </div>
+            </section><!-- End blog comments -->
+          </div>
+          </div>
+          <!-- End blog entries list -->
+          <!-- End blog sidebar -->
+
+        </div>
+
+      </div>
+    </section><!-- End Blog Single Section -->
+  <div class="slider">
+    <div class="slide-track-1">
+        <div class="slide">
+            <img src="assets/img/slider-1.svg" alt="">
+        </div>
+        <div class="slide">
+          <img  src="assets/img/slider-2.svg" alt="">
+        </div>
+        <div class="slide">
+          <img src="assets/img/slider-3.svg" alt="">
+        </div>
+        <div class="slide">
+          <img  src="assets/img/slider-4.svg" alt="">
+        </div>
+        <div class="slide">
+          <img  src="assets/img/slider-5.svg" alt="">
+        </div>
+        <div class="slide">
+          <img  src="assets/img/slider-6.svg" alt="">
+        </div>
+        <div class="slide">
+          <img  src="assets/img/slider-7.svg" alt="">
+        </div>
+        <div class="slide">
+          <img  src="assets/img/slider-8.svg" alt="">
+        </div>
+        <div class="slide">
+          <img  src="assets/img/slider-9.svg" alt="">
+        </div>
+        
+      <div class="slide slide-md-none">
+          <img  src="assets/img/slider-1.svg" alt="">
+      </div>
+      <div class="slide slide-md-none">
+        <img  src="assets/img/slider-2.svg" alt="">
+      </div>
+      <div class="slide slide-md-none">
+        <img  src="assets/img/slider-3.svg" alt="">
+      </div>
+      <div class="slide slide-md-none">
+        <img src="assets/img/slider-4.svg" alt="">
+      </div>
+      <div class="slide slide-md-none">
+        <img  src="assets/img/slider-5.svg"alt="">
+      </div>
+      <div class="slide slide-md-none">
+        <img  src="assets/img/slider-6.svg" alt="">
+      </div>
+      <div class="slide slide-md-none">
+        <img  src="assets/img/slider-7.svg" alt="">
+      </div>
+      <div class="slide slide-md-none">
+        <img  src="assets/img/slider-8.svg" alt="">
+      </div>
+      <div class="slide slide-md-none">
+        <img  src="assets/img/slider-9.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+<!-- footer-banner section start -->
+<section id="footer-banner">
+  <div class="footer-bg sec-padding">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-7">
+              <h2 class="display-4 secondary-title w800">Have a idea in mind?</h2>
+              <p>Let us collaborate and craft delightful and user-centric experiences</p>
+              <!-- <div class="mt-5 btn-flex animation-button">
+                <button class="btn-start">Talk to our Expert now</button><span>OR</span>
+                <button class="btn-start">Schedule 30mins Discover Call</button>
+              </div> -->
+              <div class="mt-lg-5  mt-md-4 animation-button btn-flex" data-aos="fade-up"  data-aos-anchor-placement="top-bottom" data-aos-duration="900"> 
+                <a href="contact-us.html#contact-cards" class="btn1 fifth ">Talk to our Expert now</a>
+                <!-- <span>OR</span> -->
+                <!-- <a href="#0" class="bttn">Schedule 30mins Discover Call</a> -->
+              </div>
+          </div>
+          <div class="col-md-5 mhide" >
+              <img class="w-100" src="assets/img/footer-bg.svg">
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer-banner section end  -->
+<!-- Footer -->
+  <footer class="bg-white new-footer">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 mb-4 mb-lg-0 pt-3 links-block-mbl">
+          <img  src="assets/img/logo.png" alt="Footer Logo"  class="mb-3 mhide w-130">
+          <p>A <a href="https://www.evoketechnologies.com/" class="footer-color footer-company-link link-hover" target="_blank">Evoke Technologies</a> company crafting meaningful experiences through Research, Design and Development.</p>
+          <ul class="px-0 py-2">
+            <li  class="list-inline-item">
+              <a href="https://www.linkedin.com/company/evoke-technologies/" class="ml-0" target="_blank">
+              <img src="assets/img/new-linkedIn.svg">
+              </a>
+            </li>
+            
+            <li  class="list-inline-item">
+              <a href="https://instagram.com/evoketechnologies" target="_blank">
+              <img src="assets/img/new-instagram.svg">
+              </a>
+            </li>
+            
+            <li  class="list-inline-item">
+              <a href="https://www.facebook.com/EvokeTechnologies" target="_blank">
+              <img src="assets/img/new-facebook.svg">
+              </a>
+            </li>
+            
+            <li  class="list-inline-item">
+              <a href="https://twitter.com/evokeUS" target="_blank">
+              <img src="assets/img/new-twitter.svg">
+              </a>
+            </li>
+            <li  class="list-inline-item">
+              <a href="https://dribbble.com/evoketechnologies" target="_blank">
+              <img src="assets/img/dribble.svg">
+              </a>
+            </li>
+          </ul>
+          <p class="px-0">© 2023 Design Space - A Evoke Technologies company.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 mb-4 mb-lg-0 pt-3 mhide">
+          <h6 class="quick-link-header mb-4">Quick Links</h6>
+          <div class="row">
+            <div class="col-md-7">
+              <ul class="list-unstyled mb-0 new-quick-links">
+                <li class="mb-2"><a href="ux-design.html" class="link-hover">UI/UX Design</a></li>
+                <li class="mb-2"><a href="mobile-development.html" class="link-hover">Mobility Services</a></li>
+                <li class="mb-2"><a href="front-end-development.html" class="link-hover">Front-End Development</a></li>
+                <li class="mb-2"><a href="portfolio.html" class="link-hover">Portfolio</a></li>
+              </ul>
+            </div>
+            <div class="col-md-5">
+              <ul class="list-unstyled mb-0 new-quick-links">
+                <li class="mb-2"><a href="blog.html" class="link-hover">Blogs</a></li>
+                <li class="mb-2"><a href="about.html" class="link-hover">About US</a></li>
+                <li class="mb-2"><a href="contact-us.html#contact-cards" class="link-hover">Contact US</a></li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-lg-4 col-md-4 mb-lg-0 pt-3 mhide">
+          <h6 class="ready-header mb-4">Ready to Grow Your Business?</h6>
+          <div class="row">
+            
+            <div class="col-xl-12 col-md-12 mb-30">
+              <a  href="mailto:sales@evoketechnologies.com" class="footer-mail-clicks">
+                <div class="single-cta">
+                  <div class="icon-align">
+                  <img src="assets/img/message_light.svg">
+                </div>
+                    <div class="cta-text">
+                        <h4>Mail us</h4>
+                        <span class="link-hover">sales@evoketechnologies.com </span>
+                    </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-xl-12 col-md-12 mb-30">
+              <a href="tel:+91-40-40500900" class="footer-mail-clicks">
+              <div class="single-cta single-cta-before ">
+                <div class="icon-align">
+                  <img src="assets/img/phone-ring.svg">
+                </div>
+                  <div class="cta-text">
+                      <h4>Call us</h4>
+                      <span class="link-hover">+91-40-40500900</span>
+                  </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- End -->
+  </main><!-- End #main -->
+
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-chevron-up"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(window).scroll(function(){
+      var sticky = $('.sticky'),
+          scroll = $(window).scrollTop();
+    
+      if (scroll >= 150) sticky.addClass('fixedheader');
+      else sticky.removeClass('fixedheader');
+    });
+  </script>
+</body>
+
+</html>

@@ -1353,6 +1353,92 @@ section {
     color: rgba(0, 0, 0, 0.78);
 }
 /*--------------------------------------------------------------
+# BLOG SINGLE
+--------------------------------------------------------------*/
+.blog {
+  padding: 20px 0 20px 0;
+}
+.breadcrumb-item{
+  font-size: 14px;
+}
+.breadcrumb-item a {
+  font-weight: 600;
+  color: #212529;
+}
+.breadcrumb-item a:hover {
+  color: #0d6efd;
+}
+.blog h1, .blog h2, .blog h3, .blog h4{
+  font-weight: 600;
+  color: #000000;
+  margin-top: 30px;
+}
+.blog h2{
+  font-size: 24px;
+}
+.blog h3{
+  font-size: 20px;
+}
+.blog h4{
+  font-size: 18px;
+}
+.blog .entry .entry-title {
+  font-size: 26px;
+  margin: 0 0 20px 0;
+}
+.blog .entry {
+  padding: 30px 0;
+}
+.entry-img img {
+  height: 450px;
+  width: 100%;
+}
+.blog .entry .entry-content blockquote {
+  overflow: hidden;
+  background-color: #fafafa;
+  padding: 40px;
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+}
+.blog .entry .entry-content blockquote::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #4719B2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.blog .entry .entry-content blockquote p {
+  color: #444444;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.blog .blog-author img {
+  width: 80px;
+  margin-right: 20px;
+}
+.blog .blog-author p {
+  font-style: italic;
+  color: #323232;
+  font-size: 13px;
+}
+.wp-block-syntaxhighlighter-code {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 0;
+  font-family: Consolas, monospace;
+  height: auto;
+  margin: 0 0 20px;
+  overflow-x: auto;
+  padding: 20px;
+}
+/*--------------------------------------------------------------
 # UX DESIGN
 --------------------------------------------------------------*/
 .mobile-straight-line{
@@ -1503,6 +1589,10 @@ section {
   .front-card{
     padding: 70px 0 !important;
   }
+  .blog-width {
+    width: 75%;
+    margin: auto;
+}
 }
 @media only screen and (min-width: 950px) and (max-width: 1045px) {
   .h-500 {
