@@ -73,6 +73,9 @@ p{
 .w800{
 	font-weight:800;
 }
+.w900{
+	font-weight:900;
+}
 .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -471,20 +474,14 @@ section {
 #header-banner .banner-bg {
   position:relative;
 }
-#header-banner .banner-bg h1 {
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(152deg, #b63362 70%, #673b92 44%);
+#header-banner .banner-bg h1, #case-studies-banner h1 {
   text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.04);
+  background: linear-gradient(180deg, #B63362 50%, #673B92 100%);
   margin: 0 0 10px 0;
   text-transform: capitalize;
-}
-#header-banner .banner-bg h1 span:last-child {
-  background-image: linear-gradient(-180deg, #b63362 5%, #673b92 84%);
-  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.04);
+  background-clip: text;
   -webkit-background-clip: text;
-          background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #header-banner .banner-bg h5 {
   color: #000;
@@ -1136,7 +1133,7 @@ section {
 /*--------------------------------------------------------------
 # PORTFOLIO
 --------------------------------------------------------------*/
-.portfolio-banner .tag-line, .contact-header-banner .tag-line {
+.portfolio-banner .tag-line, .contact-header-banner .tag-line,#case-studies-banner .tag-line {
   text-transform: uppercase;
   color: #323232;
 }
@@ -1439,6 +1436,138 @@ section {
   padding: 20px;
 }
 /*--------------------------------------------------------------
+# CASE STUDY SINGLE
+--------------------------------------------------------------*/
+.cs-banner {
+  padding-top: 60px;
+}
+#cs-subtract .sub-margin {
+  margin-top: -60px;
+}
+.cs-img-bg {
+  position: absolute;
+  top: 0;
+  right: -60px;
+}
+.cs-bg-img {
+  max-height: 480px;
+  overflow: hidden;
+}
+.cs-banner .cs-banner-list ul,#cs-design .cs-design-list ul{
+  list-style: none;
+  padding-left: 0;
+}
+#cs-problem-statement p, #cs-design p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+.transalte-y {
+  transform: translateY(-40px);
+}
+#cs-subtract .cs-sub-bg {
+  background-image: url(../img/subtract.png);
+  background-repeat: no-repeat;
+  max-width: 1100px;
+  margin: auto;
+  background-position: top;
+  background-size: contain;
+}
+#cs-subtract .sub-card {
+  background: linear-gradient(144.58deg, #FFFFFF 8.88%, #B6C1DD 114.31%);
+  box-shadow: 13px 13px 34px rgba(255, 255, 255, 0.49);
+  border-radius: 39px;
+  padding: 35px 30px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+#cs-design .cs-design-bg {
+  position: absolute;
+  top: -270px;
+  z-index: -1;
+  left: 0px;
+  width: 515px;
+}
+.cs-banner-2 .carousel-banner-caption {
+  color: #000;
+  text-align: left;
+  width: 460px;
+  padding: 25px;
+  background: #fff;
+}
+.cs-banner-2 {
+  height: 600px;
+  padding: 40px 0;
+  background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+.cs-banner-bg-1{
+  background-image: url(../img/cs-banner-2-bg.svg);
+}
+#cs-design .cs-design-list ul li div {
+    width: 140px;
+    height: 60px;
+    border-radius: 33px 3px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+#cs-design ul .orange {
+  background: #C0561A;
+}
+#cs-design ul .merron {
+  background: #007D98;
+}
+#cs-design ul .black {
+  background: #151515;
+}
+#cs-design ul .grey {
+  background: #F4F7FA;
+}
+#cs-design ul .light-pink {
+  background: #F8F8F8;
+}
+#cs-design-landing .cs-design-landing-circule {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#cs-design-landing .cs-landing-bg {
+  position: relative;
+  margin-bottom: 80px;
+}
+#cs-design-landing .cs-landing-bg::after {
+  background: linear-gradient(133.75deg, #FFF4F4 11.5%, #C9D8F1 97.36%);
+  opacity: 0.3;
+  border-radius: 40px;
+  content: "";
+  display: block;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+}
+#cs-design-landing .cs-landing-bg.cs-bg1::after{
+  top: 0;
+  left: -80px;
+  right: 80px;
+}
+#cs-design-landing .cs-landing-bg.cs-bg2::after {
+  top: 0;
+  left: 80px;
+  right: -60px;
+}
+#cs-design-landing .cs-landing-bg.cs-bg3::after {
+  height: 450px;  
+  top: 100px;
+  left: -80px;
+  right: 60px;
+}
+/*--------------------------------------------------------------
 # UX DESIGN
 --------------------------------------------------------------*/
 .mobile-straight-line{
@@ -1620,7 +1749,7 @@ section {
   .section-title{
     font-size:22px;
   }
-  .md-hide {
+  .md-hide,#cs-design-landing .cs-landing-bg::after {
     display: none !important;
   }
   #header-banner .banner-bg .image-3 {
@@ -1664,7 +1793,7 @@ section {
     position: relative;
     padding-bottom: 70px;
   }
-  #timeline-service .sec-padding{
+  #timeline-service .sec-padding, #case-studies-banner .sec-padding{
     padding: 0;
   }
   #timeline-service .mobile-straight-line {
@@ -1691,6 +1820,16 @@ section {
   .mobility-sub-headers {
     padding-right: 0;
   }
+  .cs-banner-2 {
+    height: 400px;
+  }
+  .cs-banner-2 .carousel-banner-caption {
+    max-width: 85%;
+    margin: auto;
+  }
+  #cs-design .cs-design-list ul li div {
+    width: auto !important;
+}
 }
 @media only screen and (min-width: 768px) and (max-width: 1045px) {
   #footer-banner .footer-bg p {
@@ -1731,7 +1870,7 @@ section {
 	.mhide,.slide-md-none {
 		display:none;
 	}
-	#cards-section .mt-170,	#cards-section .mt--40,	#cards-section .mt-120 {
+	#cards-section .mt-170,	#cards-section .mt--40,	#cards-section .mt-120,#mobility-card .card-img-bottom {
 		margin-top: 40px;
 	}
 	#cards-section .card .mb-flex-center, #mobility-card .mobile-mobility-btn{
@@ -1840,7 +1979,7 @@ section {
     margin: auto;
     margin-top: 10px;
   }
-  .new-footer .pt-3 {
+  .new-footer .pt-3,#cs-subtract {
     padding-top: 0px !important;
   }
   .new-footer p {
@@ -1859,7 +1998,21 @@ section {
   .blog-card{
     bottom: -120px;
   }
-  #mobility-card .card-img-bottom {
-    margin-top: 40px;
+  #cs-subtract .sub-card {
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
+  .row-col-sm-reverse {
+    flex-direction: column-reverse;
+  }
+  #cs-subtract .cs-sub-bg {
+    background-image: none;
+}
+.mobile-pt-30, .mobile-mt-30{
+  padding-top: 30px !important;
+}
+.transalte-y {
+  transform: translateY(0px);
+}
 }
