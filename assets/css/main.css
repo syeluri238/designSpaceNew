@@ -1509,6 +1509,12 @@ section {
 .cs-banner-bg-1{
   background-image: url(../img/cs-banner-2-bg.svg);
 }
+.cs-banner-bg-9 {
+  background-image: url(../img/cs-rodwell-layer-bg.svg);
+}
+.cs-design-bg-rodwell {
+  background: #FFFBF3;
+}
 #cs-design .cs-design-list ul li div {
     width: 140px;
     height: 60px;
@@ -1684,8 +1690,40 @@ section {
 .btn-black .fifth:after {
   background: #000;
 }
-.btn-black .fifth:hover {
-  color: #fff;
+.btn-black .fifth:hover,.cs-design-bg-rodwell-2 .col-md-4 h6,.cs-design-bg-rodwell-2 .col-md-4 p {
+  color: #fff !important;
+}
+.cs-design-bg-rodwell-2 .col-md-4{
+  padding: 25px;
+}
+.cs-design-bg-rodwell-2 .column-bg-1-rodwell,.cs-design-bg-rodwell-2 .column-bg-4-rodwell {
+  background: #006FBA;
+  border-bottom-left-radius: 25px 25px;
+  border-top-left-radius: 25px 25px;
+}
+.cs-design-bg-rodwell-2 .column-bg-2-rodwell {
+  background: #E86C0E;
+}
+.cs-design-bg-rodwell-2 .column-bg-3-rodwell,.cs-design-bg-rodwell-2 .column-bg-6-rodwell {
+  background: #8C8C8C;
+  border-bottom-right-radius: 25px 25px;
+  border-top-right-radius: 25px 25px;
+}
+.cs-design-bg-rodwell-2 .column-bg-4-rodwell,.cs-design-bg-rodwell-2 .column-bg-4-rodwell h6,.cs-design-bg-rodwell-2 .column-bg-4-rodwell p {
+  background: #EBF5FC;
+  color: #686868 !important;
+}
+.cs-design-bg-rodwell-2 .column-bg-5-rodwell {
+  background: #97999D;
+}
+.cs-design-bg-rodwell-2 .column-bg-6-rodwell {
+  background: #B2B2B2;
+}
+.cs-design-bg-rodwell-2 h3 {
+  color: #FF0000;
+}
+.takeaway-bg {
+  background: linear-gradient(0deg, #F6F6F6 0%, #F6F6F6 100%), linear-gradient(180deg, #EC273F 0%, #FF6D1C 100%);
 }
 /*--------------------------------------------------------------
 # MEDIAQUIRES
@@ -1823,6 +1861,9 @@ section {
   .cs-banner-2 {
     height: 400px;
   }
+  .cs-banner-bg-9{
+    height: 500px;
+  }
   .cs-banner-2 .carousel-banner-caption {
     max-width: 85%;
     margin: auto;
@@ -1940,7 +1981,7 @@ section {
 	      font-size: 16px;
       margin-bottom: 20px;
   }
-  #portfolio-card .card-port-bg img {
+  #portfolio-card .card-port-bg img,.mobile-w-100 {
     height: auto;
     width: 100%;
   }
@@ -2008,11 +2049,14 @@ section {
   }
   #cs-subtract .cs-sub-bg {
     background-image: none;
-}
-.mobile-pt-30, .mobile-mt-30{
-  padding-top: 30px !important;
-}
-.transalte-y {
-  transform: translateY(0px);
-}
+  }
+  .mobile-pt-30, .mobile-mt-30{
+    padding-top: 30px !important;
+  }
+  .transalte-y {
+    transform: translateY(0px);
+  }
+  .cs-design-bg-rodwell-2 .mobile-radius{
+    border-radius: 0 !important;
+  }
 }
