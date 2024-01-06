@@ -1520,6 +1520,9 @@ section {
 .cs-banner-bg-3 {
   background-image: url(../img/cs-kenny-banner-layer.svg);
 }
+.cs-banner-bg-4 {
+  background-image: url(../img/cs-bms-banner-layer.svg);
+}
 .cs-banner-bg-9 {
   background-image: url(../img/cs-rodwell-layer-bg.svg);
 }
@@ -1727,6 +1730,35 @@ section {
 }
 .cs-design-list-cricil .bg-1C73FF {
   background: #1C73FF;
+}
+.cs-design-bg-sec {
+  background: #F3EEFF;
+}
+.box-bg-1-bms {
+  background: #0080E5;
+  border-radius: 10px;
+}
+.box-bg-2-bms {
+  border-radius: 10px;
+  background: #BE2BBB;
+}
+.bg-BE2BBB {
+  background: #BE2BBB;
+}
+.bg-74C264 {
+  background: #74C264;
+}
+.bg-828B95 {
+  background: #828B95;
+}
+.bg-E9F5FF {
+  background: #E9F5FF;
+}
+#cs-design-landing .bg-cards-bms {
+  background: linear-gradient(135deg, #BE2BBB 0%, #861D84 0.01%, #093B65 100%);
+  padding: 60px 20px 80px;
+  border-radius: 35px;
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # UX DESIGN
@@ -2005,7 +2037,15 @@ section {
   }
   #cs-design .cs-design-list ul li div {
     width: auto !important;
-}
+  }
+  #cs-design .cs-design-list ul{
+    display: block !important;
+  }
+  #cs-design .cs-design-list ul li {
+    width: 49%;
+    display: inline-block;
+    margin: 10px 0;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1045px) {
   #footer-banner .footer-bg p {
@@ -2191,7 +2231,7 @@ section {
   .transalte-y {
     transform: translateY(0px);
   }
-  .cs-design-bg-rodwell-2 .mobile-radius{
+  .cs-design-bg-rodwell-2 .mobile-radius, .bg-cards-bms{
     border-radius: 0 !important;
   }
 }
