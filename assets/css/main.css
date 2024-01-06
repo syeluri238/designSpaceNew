@@ -717,7 +717,6 @@ section {
     padding: 3px 0;
     list-style-type: disc;
 }
-
 /*--------------------------------------------------------------
 # GET TO KNOW US
 --------------------------------------------------------------*/
@@ -980,7 +979,7 @@ section {
   font-size: 15px;
   font-weight: 500;
 }
-#footer-banner .footer-bg h2,#footer-banner .footer-bg .btn1, .mobile-mobility-btn .btn1 {
+#footer-banner .footer-bg h2,#footer-banner .footer-bg .btn1, .mobile-mobility-btn .btn1, #cs-design .box p {
   color: #fff;
   text-transform: none;
 }
@@ -1440,6 +1439,8 @@ section {
 --------------------------------------------------------------*/
 .cs-banner {
   padding-top: 60px;
+  width: 100%;
+  overflow: hidden;
 }
 #cs-subtract .sub-margin {
   margin-top: -60px;
@@ -1448,16 +1449,19 @@ section {
   position: absolute;
   top: 0;
   right: -60px;
+  z-index: -2;
 }
-.cs-bg-img {
-  max-height: 480px;
-  overflow: hidden;
+.cs-img-banner {
+  height: 480px;
 }
-.cs-banner .cs-banner-list ul,#cs-design .cs-design-list ul{
+.cs-img{
+  width: 95%;
+}
+.cs-banner .cs-banner-list ul,#cs-design .cs-design-list ul, .cs-trans-images ul, .cs-design-list-cricil ul{
   list-style: none;
   padding-left: 0;
 }
-#cs-problem-statement p, #cs-design p {
+.cs-problem-statement p {
   font-weight: 400;
   font-size: 18px;
   color: #000000;
@@ -1472,6 +1476,7 @@ section {
   margin: auto;
   background-position: top;
   background-size: contain;
+  width: 95%;
 }
 #cs-subtract .sub-card {
   background: linear-gradient(144.58deg, #FFFFFF 8.88%, #B6C1DD 114.31%);
@@ -1487,6 +1492,9 @@ section {
   z-index: -1;
   left: 0px;
   width: 515px;
+}
+#cs-design .cs-design-bg.top--30 {
+  top:30px;
 }
 .cs-banner-2 .carousel-banner-caption {
   color: #000;
@@ -1509,11 +1517,54 @@ section {
 .cs-banner-bg-1{
   background-image: url(../img/cs-banner-2-bg.svg);
 }
+.cs-banner-bg-3 {
+  background-image: url(../img/cs-kenny-banner-layer.svg);
+}
 .cs-banner-bg-9 {
   background-image: url(../img/cs-rodwell-layer-bg.svg);
 }
+.cs-banner-bg-11 {
+  background-image: url(../img/cs-crisil-banner-layer.svg);
+}
 .cs-design-bg-rodwell {
   background: #FFFBF3;
+}
+.cs-design-bg-rodwell-2 .col-md-4{
+  padding: 25px;
+}
+.cs-design-bg-rodwell-2 .column-bg-1-rodwell,.cs-design-bg-rodwell-2 .column-bg-4-rodwell {
+  background: #006FBA;
+  border-bottom-left-radius: 25px 25px;
+  border-top-left-radius: 25px 25px;
+}
+.cs-design-bg-rodwell-2 .column-bg-2-rodwell {
+  background: #E86C0E;
+}
+.cs-design-bg-rodwell-2 .column-bg-3-rodwell,.cs-design-bg-rodwell-2 .column-bg-6-rodwell {
+  background: #8C8C8C;
+  border-bottom-right-radius: 25px 25px;
+  border-top-right-radius: 25px 25px;
+}
+.cs-design-bg-rodwell-2 .column-bg-4-rodwell,.cs-design-bg-rodwell-2 .column-bg-4-rodwell h6,.cs-design-bg-rodwell-2 .column-bg-4-rodwell p {
+  background: #EBF5FC;
+  color: #686868 !important;
+}
+.cs-design-bg-rodwell-2 .column-bg-5-rodwell {
+  background: #97999D;
+}
+.cs-design-bg-rodwell-2 .column-bg-6-rodwell {
+  background: #B2B2B2;
+}
+.cs-design-bg-rodwell-2 h3 {
+  color: #FF0000;
+}
+.takeaway-bg {
+  background: linear-gradient(0deg, #F6F6F6 0%, #F6F6F6 100%), linear-gradient(180deg, #EC273F 0%, #FF6D1C 100%);
+}
+.cs-banner .rodwell {
+  top: -270px;
+  position: absolute;
+  left: -190px;
 }
 #cs-design .cs-design-list ul li div {
     width: 140px;
@@ -1536,6 +1587,21 @@ section {
 }
 #cs-design ul .light-pink {
   background: #F8F8F8;
+}
+.bg-0045A4 {
+  background: #0045A4;
+}
+.bg-EFF6FF {
+  background: #EFF6FF;
+}
+.bg-D40018 {
+  background: #D40018;
+}
+.bg-139347 {
+  background: #139347;
+}
+.bg-BBBBBB {
+  background: #BBBBBB;
 }
 #cs-design-landing .cs-design-landing-circule {
   position: absolute;
@@ -1572,6 +1638,95 @@ section {
   top: 100px;
   left: -80px;
   right: 60px;
+}
+.rodwell-bg-banner {
+  top: -220px;
+  position: absolute;
+  right: -130px;
+}
+.banner-ken{
+  top:-50px
+}
+.banner-cricil {
+  top:0;z-index: -1;
+}
+.banner-cricil img {
+  height: 380px;
+}
+#cs-design .box {
+  padding: 25px 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.box-bg-1-kenna {
+  background-color: #4400D4;
+}
+.box-bg-2-kenna {
+  background-color: #00747B;
+}
+.box-bg-3-kenna {
+  background-color: #7101A6;
+}
+.box-bg-4-kenna {
+  background-color: #2C3032;
+}
+.bg-cards-kenny{
+  background-color: #C7DFFF;
+    border-radius: 35px;
+}
+.cs-trans-images ul li{
+  border-radius: 44px;
+  background: #EF6230;
+  color: #FFF;
+  padding: 10px 20px;
+  margin: 15px;
+  display: inline-flex;
+}
+.cricil-green {
+  color: #007D23;
+}
+#cs-design-landing .bg-cards-cricil {
+  padding: 20px 0 80px 20px;
+  border-radius: 40px;
+  background: linear-gradient(149deg, #FFF 0%, #FFEDE3 100%);
+}
+.cs-problem-statement h3 span {
+  color: #CECFD9;
+  font-size: 40px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.cs-design-list-cricil ul li div {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+.cs-design-list-cricil .bg-FF8C63 {
+  background: #FF8C63;
+}
+.cs-design-list-cricil .bg-4F3756 {
+  background: #4F3756;
+}
+.cs-design-list-cricil .bg-65443E {
+  background: #65443E;
+}
+.cs-design-list-cricil .bg-38383A {
+  background: #38383A;
+}
+.cs-design-list-cricil .bg-ADADAD {
+  background: #ADADAD;
+}
+.cs-design-list-cricil .bg-EBEBEB {
+  background: #EBEBEB;
+}
+.cs-design-list-cricil .bg-D8002A {
+  background: #D8002A;
+}
+.cs-design-list-cricil .bg-21AA47 {
+  background: #21AA47;
+}
+.cs-design-list-cricil .bg-1C73FF {
+  background: #1C73FF;
 }
 /*--------------------------------------------------------------
 # UX DESIGN
@@ -1693,38 +1848,6 @@ section {
 .btn-black .fifth:hover,.cs-design-bg-rodwell-2 .col-md-4 h6,.cs-design-bg-rodwell-2 .col-md-4 p {
   color: #fff !important;
 }
-.cs-design-bg-rodwell-2 .col-md-4{
-  padding: 25px;
-}
-.cs-design-bg-rodwell-2 .column-bg-1-rodwell,.cs-design-bg-rodwell-2 .column-bg-4-rodwell {
-  background: #006FBA;
-  border-bottom-left-radius: 25px 25px;
-  border-top-left-radius: 25px 25px;
-}
-.cs-design-bg-rodwell-2 .column-bg-2-rodwell {
-  background: #E86C0E;
-}
-.cs-design-bg-rodwell-2 .column-bg-3-rodwell,.cs-design-bg-rodwell-2 .column-bg-6-rodwell {
-  background: #8C8C8C;
-  border-bottom-right-radius: 25px 25px;
-  border-top-right-radius: 25px 25px;
-}
-.cs-design-bg-rodwell-2 .column-bg-4-rodwell,.cs-design-bg-rodwell-2 .column-bg-4-rodwell h6,.cs-design-bg-rodwell-2 .column-bg-4-rodwell p {
-  background: #EBF5FC;
-  color: #686868 !important;
-}
-.cs-design-bg-rodwell-2 .column-bg-5-rodwell {
-  background: #97999D;
-}
-.cs-design-bg-rodwell-2 .column-bg-6-rodwell {
-  background: #B2B2B2;
-}
-.cs-design-bg-rodwell-2 h3 {
-  color: #FF0000;
-}
-.takeaway-bg {
-  background: linear-gradient(0deg, #F6F6F6 0%, #F6F6F6 100%), linear-gradient(180deg, #EC273F 0%, #FF6D1C 100%);
-}
 /*--------------------------------------------------------------
 # MEDIAQUIRES
 --------------------------------------------------------------*/
@@ -1739,6 +1862,9 @@ section {
 @media (max-width: 1045px) {
   #cards-section .sec-padding {
     padding-top: 0;
+ }
+ .tab-pt-40{
+  padding-top: 50px !important;
  }
   #cards-section .card {
     height: 400px;
@@ -1759,6 +1885,15 @@ section {
   .blog-width {
     width: 75%;
     margin: auto;
+  }
+  .dhide{
+    display: none;
+  }
+  .ml-60 {
+    margin-left: 60px;
+}
+.ml--60 {
+  margin-left: -60px;
 }
 }
 @media only screen and (min-width: 950px) and (max-width: 1045px) {
@@ -1974,7 +2109,7 @@ section {
   #industries .industries-header h4 {
     width: 85%;
   }
-  #industries .industries-header p {
+  #industries .industries-header p, .mobile-pb-0 {
     padding-bottom: 0;
   }
   .main-blog h5 {
