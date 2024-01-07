@@ -1217,10 +1217,10 @@ section {
 #portfolio-card .card-bg-6:after {
   background: linear-gradient(180deg, rgba(21, 140, 177, 0) 0%, #084B60 100%);
 }
-#portfolio-card .card-bg-7 {
+#portfolio-card .card-bg-7, #mobility-card.card-bg-7  {
   background: #970000;
 }
-#portfolio-card .card-bg-7:after {
+#portfolio-card .card-bg-7:after, #mobility-card.card-bg-7:after  {
   background: linear-gradient(180deg, rgba(151, 0, 0, 0) 0%, #630000 100%);
 }
 #portfolio-card .card-bg-8 {
