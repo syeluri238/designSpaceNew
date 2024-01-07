@@ -1523,6 +1523,9 @@ section {
 .cs-banner-bg-4 {
   background-image: url(../img/cs-bms-banner-layer.svg);
 }
+.cs-banner-bg-5 {
+  background-image: url(../img/cs-ebms-layer-bg.svg);
+}
 .cs-banner-bg-9 {
   background-image: url(../img/cs-rodwell-layer-bg.svg);
 }
@@ -1852,6 +1855,39 @@ section {
 }
 .bg-cards-cvm  .mt--180{
   margin-top: -180px;
+}
+.cs-design-bg-sec-embs {
+  background: #0C0026;
+  color: #fff;
+}
+.banner-embs{
+  right: -60px;
+}
+.embs-box {
+  border-radius: 6px;
+  border: 1px solid rgba(154, 154, 154, 0.32);
+  background: #F6F6F6;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.embs-box h6 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.embs-box p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.embs-typograpy-bg {
+  background: #e9e8ef;
+}
+.embs-design-header {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+}
+#cs-design-landing .bg-cards-embs{
+  background: #0C0026;
 }
 /*--------------------------------------------------------------
 # UX DESIGN
