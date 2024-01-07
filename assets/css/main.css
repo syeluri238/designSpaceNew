@@ -541,9 +541,6 @@ section {
     display: flex;
     align-items: flex-start;
 }
-.h-500 {
-  height: 500px;
-}
 .card-new-hover{
   border-radius: 2px;
   position: relative;
@@ -1517,6 +1514,9 @@ section {
 .cs-banner-bg-1{
   background-image: url(../img/cs-banner-2-bg.svg);
 }
+.cs-banner-bg-2 {
+  background-image: url(../img/cs-matrimony-banner-layer.svg);
+}
 .cs-banner-bg-3 {
   background-image: url(../img/cs-kenny-banner-layer.svg);
 }
@@ -1525,6 +1525,9 @@ section {
 }
 .cs-banner-bg-9 {
   background-image: url(../img/cs-rodwell-layer-bg.svg);
+}
+.cs-banner-bg-10 {
+  background-image: url(../img/cs-cvw-layer-bg.png);
 }
 .cs-banner-bg-11 {
   background-image: url(../img/cs-crisil-banner-layer.svg);
@@ -1535,20 +1538,24 @@ section {
 .cs-design-bg-rodwell-2 .col-md-4{
   padding: 25px;
 }
-.cs-design-bg-rodwell-2 .column-bg-1-rodwell,.cs-design-bg-rodwell-2 .column-bg-4-rodwell {
-  background: #006FBA;
+.mobile-left-radius{
   border-bottom-left-radius: 25px 25px;
   border-top-left-radius: 25px 25px;
+}
+.mobile-right-radius{
+  border-bottom-right-radius: 25px 25px;
+  border-top-right-radius: 25px 25px;
+}
+.cs-design-bg-rodwell-2 .column-bg-1-rodwell {
+  background: #006FBA;
 }
 .cs-design-bg-rodwell-2 .column-bg-2-rodwell {
   background: #E86C0E;
 }
-.cs-design-bg-rodwell-2 .column-bg-3-rodwell,.cs-design-bg-rodwell-2 .column-bg-6-rodwell {
+.cs-design-bg-rodwell-2 .column-bg-3-rodwell {
   background: #8C8C8C;
-  border-bottom-right-radius: 25px 25px;
-  border-top-right-radius: 25px 25px;
 }
-.cs-design-bg-rodwell-2 .column-bg-4-rodwell,.cs-design-bg-rodwell-2 .column-bg-4-rodwell h6,.cs-design-bg-rodwell-2 .column-bg-4-rodwell p {
+.cs-design-bg-rodwell-2 .column-bg-4-rodwell,.cs-design-bg-rodwell-2 .col-md-4.column-bg-4-rodwell h6,.cs-design-bg-rodwell-2 .col-md-4.column-bg-4-rodwell p {
   background: #EBF5FC;
   color: #686868 !important;
 }
@@ -1653,10 +1660,16 @@ section {
 .banner-cricil {
   top:0;z-index: -1;
 }
+.banner-bms img{
+  height: 350px;
+}
+.banner-bms{
+  top:10px;
+}
 .banner-cricil img {
   height: 380px;
 }
-#cs-design .box {
+#cs-design .box,.cs-problem-statement .box {
   padding: 25px 20px;
   color: #fff;
   margin-bottom: 20px;
@@ -1759,6 +1772,86 @@ section {
   padding: 60px 20px 80px;
   border-radius: 35px;
   color: #fff;
+}
+.cs-problem-statement .box-bg-1,.bg-DC4B6F {
+  background: #DC4C70;
+}
+.cs-problem-statement .box-bg-2,.bg-4009B3 {
+  background: #4009B3;
+}
+.cs-problem-statement .box-bg-3, .bg-960EBA {
+  background: #960EBA;
+}
+.cs-problem-statement .box .box-para {
+  font-size: 18px;
+  font-style: italic;
+  border-left: 3px solid #fff;
+  padding-left: 10px;
+  margin-top: 20px;
+  font-family: 'Caveat', cursive;
+}
+#cs-design .box-bg-1 {
+  background: #4E00F4;
+}
+#cs-design .box-bg-2 {
+  background: #A600F4;
+}
+.bg-1BC9D6 {
+  background: #1BC9D6;
+}
+.bg-52B69A {
+  background: #EEEEEE;
+}
+#cs-design-landing .bg-cards {
+  background: linear-gradient(180deg, #4009B3 0%, #0A0020 100%);
+  border-radius: 40px;
+}
+#cs-design-landing .bg-cards .transalte-y {
+  transform: translateY(-30%);
+}
+.banner-cvw{
+  top: 20px;
+  right: -60px;
+}
+.group-cvw {
+  position: absolute;
+  top: -55px;
+  right: -129px;
+  z-index: -1;
+}
+.group-cvw-2 {
+  position: absolute;
+  top: -22px;
+  left: -110px;
+  transform: rotate(45deg);
+}
+.graphs-height img {
+  height: 200px;
+}
+.cs-design-bg-rodwell-2 .column-bg-1-cvm {
+  background: #37478C;
+}
+.cs-design-bg-rodwell-2 .column-bg-2-cvm {
+  background: #5589C5;
+}
+.cs-design-bg-rodwell-2 .column-bg-3-cvm {
+  background: #97CCE8;
+}
+.cs-design-bg-rodwell-2 .column-bg-4-cvm {
+  background: #0303F5;
+}
+.cs-design-bg-rodwell-2 .column-bg-5-cvm {
+  background: #828282;
+}
+.cs-design-bg-rodwell-2 .column-bg-6-cvm,.cs-design-bg-rodwell-2 .col-md-4.column-bg-6-cvm h6,.cs-design-bg-rodwell-2 .col-md-4.column-bg-6-cvm p {
+  background: #F9F9F9;
+  color: #808080 !important;
+}
+#cs-design-landing .bg-cards-cvm {
+  background: #D3E3F1;
+}
+.bg-cards-cvm  .mt--180{
+  margin-top: -180px;
 }
 /*--------------------------------------------------------------
 # UX DESIGN
@@ -2086,6 +2179,9 @@ section {
 	.mhide,.slide-md-none {
 		display:none;
 	}
+  .graphs-height img {
+    height: auto;
+  }
 	#cards-section .mt-170,	#cards-section .mt--40,	#cards-section .mt-120,#mobility-card .card-img-bottom {
 		margin-top: 40px;
 	}
@@ -2148,6 +2244,9 @@ section {
   }
   #industries .industries-header h4 {
     width: 85%;
+  }
+  .mwidth{
+    max-width: 98%;
   }
   #industries .industries-header p, .mobile-pb-0 {
     padding-bottom: 0;
@@ -2228,10 +2327,10 @@ section {
   .mobile-pt-30, .mobile-mt-30{
     padding-top: 30px !important;
   }
-  .transalte-y {
+  .transalte-y,#cs-design-landing .bg-cards .transalte-y {
     transform: translateY(0px);
   }
-  .cs-design-bg-rodwell-2 .mobile-radius, .bg-cards-bms{
+  .mobile-left-radius,.mobile-right-radius, .bg-cards-bms, #cs-design-landing .bg-cards{
     border-radius: 0 !important;
   }
 }
