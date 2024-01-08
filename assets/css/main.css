@@ -1526,6 +1526,9 @@ section {
 .cs-banner-bg-5 {
   background-image: url(../img/cs-ebms-layer-bg.svg);
 }
+.cs-banner-bg-7 {
+  background-image: url(../img/cs-rms-banner-layer.svg);
+}
 .cs-banner-bg-8 {
   background-image: url(../img/cs-pegusbanner-layer.svg);
 }
@@ -1894,7 +1897,7 @@ section {
 .pd-cs-branding-bg,.bg-grey-background,.embs-box {
   background: #f6f6f6 !important;
 }
-.bg-grey-background {
+.bg-grey-background,#cs-design-landing .bg-cards-rms {
   padding: 20px 20px 80px !important;
 }
 .bg-001F5F {
@@ -1917,6 +1920,21 @@ section {
 }
 .box-bg-4-pegus {
   background: #5C0C84;
+}
+.banner-rms {
+  top: 30px;
+  right: -110px;
+}
+.banner-rms img {
+  height: 300px;
+}
+.cs-design-bg-sec-rms,#cs-design-landing .bg-cards-rms {
+  background: linear-gradient(135deg, #3C1053 0%, #453985 100%);
+  color: #fff !important;
+}
+.box-bg-1-rms {
+  border-radius: 10px;
+  background: #6A56D6;
 }
 /*--------------------------------------------------------------
 # UX DESIGN
@@ -2247,7 +2265,7 @@ section {
   .graphs-height img {
     height: auto;
   }
-	#cards-section .mt-170,	#cards-section .mt--40,	#cards-section .mt-120,#mobility-card .card-img-bottom, .bg-grey-background img {
+	#cards-section .mt-170,	#cards-section .mt--40,	#cards-section .mt-120,#mobility-card .card-img-bottom, .bg-grey-background img, .bg-cards-rms img {
 		margin-top: 40px;
 	}
 	#cards-section .card .mb-flex-center, #mobility-card .mobile-mobility-btn{
@@ -2389,7 +2407,7 @@ section {
   #cs-subtract .cs-sub-bg {
     background-image: none;
   }
-  .mobile-pt-30, .mobile-mt-30,.bg-grey-background h3{
+  .mobile-pt-30, .mobile-mt-30,.bg-grey-background h3, .bg-cards-rms h3{
     padding-top: 30px !important;
   }
   .transalte-y,#cs-design-landing .bg-cards .transalte-y {
