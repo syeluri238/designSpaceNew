@@ -1448,7 +1448,7 @@ section {
   right: -60px;
   z-index: -2;
 }
-.cs-img-banner {
+.cs-img-banner, .banner-13 img {
   height: 480px;
 }
 .cs-img{
@@ -1526,6 +1526,9 @@ section {
 .cs-banner-bg-5 {
   background-image: url(../img/cs-ebms-layer-bg.svg);
 }
+.cs-banner-bg-6 {
+  background-image: url(../img/cs-pd-layer-bg.svg);
+}
 .cs-banner-bg-7 {
   background-image: url(../img/cs-rms-banner-layer.svg);
 }
@@ -1540,6 +1543,9 @@ section {
 }
 .cs-banner-bg-11 {
   background-image: url(../img/cs-crisil-banner-layer.svg);
+}
+.cs-banner-bg-14 {
+  background-image: url(../img/cs-banner-bg-13.png);
 }
 .cs-design-bg-rodwell {
   background: #FFFBF3;
@@ -1711,7 +1717,7 @@ section {
   color: #007D23;
 }
 #cs-design-landing .bg-cards-cricil {
-  padding: 20px 0 80px 20px;
+  padding: 60px 20px 80px 20px;
   border-radius: 40px;
   background: linear-gradient(149deg, #FFF 0%, #FFEDE3 100%);
 }
@@ -1778,8 +1784,6 @@ section {
 }
 #cs-design-landing .bg-cards-bms {
   background: linear-gradient(135deg, #BE2BBB 0%, #861D84 0.01%, #093B65 100%);
-  padding: 60px 20px 80px;
-  border-radius: 35px;
   color: #fff;
 }
 .cs-problem-statement .box-bg-1,.bg-DC4B6F {
@@ -1813,7 +1817,6 @@ section {
 }
 #cs-design-landing .bg-cards {
   background: linear-gradient(180deg, #4009B3 0%, #0A0020 100%);
-  border-radius: 40px;
 }
 #cs-design-landing .bg-cards .transalte-y {
   transform: translateY(-30%);
@@ -1932,9 +1935,75 @@ section {
   background: linear-gradient(135deg, #3C1053 0%, #453985 100%);
   color: #fff !important;
 }
+#cs-design-landing .bg-cards-pd {
+  background: linear-gradient(135deg, #0F0C29 10.54%, #085472 50.62%, #24243E 93.36%);
+  color: #fff;
+}
 .box-bg-1-rms {
   border-radius: 10px;
   background: #6A56D6;
+}
+.banner-13{
+  top:0;
+  right: 0;
+  z-index: -1;
+}
+.cs-design-bg-new-sec {
+  background-image: url(../img/cs-design-bg-new.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box-bg-5-ivs {
+  border-radius: 30px 0px 0px 0px;
+  background: #0CA2B7;
+}
+.box-bg-6-ivs {
+  border-radius: 0px 0px 0px 30px;
+  background: #F34D7D;
+}
+.box-bg-7-ivs {
+  border-radius: 0px 30px 0px 0px;
+  background: #49B265;
+}
+.box-bg-8-ivs {
+  border-radius: 0px 0px 30px 0px;
+  background: #095F8B;
+}
+#cs-design-landing-bg-stream {
+  background-image: url(../img/cs-design-landing-bg-stream.png);
+  background-repeat: no-repeat;
+}
+.ipad-bg-banner{
+  top: -90px;
+  position: absolute;
+  right: -130px;
+}
+.ipad-bg-banner img{
+  height: 540px
+}
+.box-bg-1-pd {
+  background: #2271ED;
+}
+.box-bg-2-pd {
+  background: #A201BC;
+}
+.box-bg-3-pd {
+  background: #D7251C;
+}
+.box-bg-4-pd {
+  background: #0D832C;
+}
+.cs-design-bg-pd {
+  background: rgba(42, 180, 110, 0.16);
+}
+.bg-00A4E4 {
+  background: #00A4E4;
+}
+.bg-5E5D5E {
+  background: #5E5D5E;
+}
+.bg-D70B0B {
+  background: #D70B0B;
 }
 /*--------------------------------------------------------------
 # UX DESIGN
@@ -2265,7 +2334,8 @@ section {
   .graphs-height img {
     height: auto;
   }
-	#cards-section .mt-170,	#cards-section .mt--40,	#cards-section .mt-120,#mobility-card .card-img-bottom, .bg-grey-background img, .bg-cards-rms img {
+	#cards-section .mt-170,	#cards-section .mt--40,	#cards-section .mt-120,#mobility-card .card-img-bottom, 
+  .bg-grey-background img, .bg-cards-rms img, .bg-cards-pd img {
 		margin-top: 40px;
 	}
 	#cards-section .card .mb-flex-center, #mobility-card .mobile-mobility-btn{
@@ -2377,7 +2447,7 @@ section {
     margin: auto;
     margin-top: 10px;
   }
-  .new-footer .pt-3,#cs-subtract {
+  .new-footer .pt-3,#cs-subtract,.mobile-pt0 {
     padding-top: 0px !important;
   }
   .new-footer p {
@@ -2407,13 +2477,13 @@ section {
   #cs-subtract .cs-sub-bg {
     background-image: none;
   }
-  .mobile-pt-30, .mobile-mt-30,.bg-grey-background h3, .bg-cards-rms h3{
+  .mobile-pt-30, .mobile-mt-30,.bg-grey-background h3, .bg-cards-rms h3, .bg-cards-pd h3{
     padding-top: 30px !important;
   }
   .transalte-y,#cs-design-landing .bg-cards .transalte-y {
     transform: translateY(0px);
   }
-  .mobile-left-radius,.mobile-right-radius, .bg-cards-bms, #cs-design-landing .bg-cards{
+  .mobile-left-radius,.mobile-right-radius, .bg-cards-bms, #cs-design-landing .bg-cards, .cs-design-bg-new-sec .mobile-radius, .bg-cards-pd{
     border-radius: 0 !important;
   }
 }
