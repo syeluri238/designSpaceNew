@@ -1526,6 +1526,9 @@ section {
 .cs-banner-bg-5 {
   background-image: url(../img/cs-ebms-layer-bg.svg);
 }
+.cs-banner-bg-8 {
+  background-image: url(../img/cs-pegusbanner-layer.svg);
+}
 .cs-banner-bg-9 {
   background-image: url(../img/cs-rodwell-layer-bg.svg);
 }
@@ -1866,7 +1869,6 @@ section {
 .embs-box {
   border-radius: 6px;
   border: 1px solid rgba(154, 154, 154, 0.32);
-  background: #F6F6F6;
   margin-bottom: 15px;
   padding: 15px;
 }
@@ -1888,6 +1890,33 @@ section {
 }
 #cs-design-landing .bg-cards-embs{
   background: #0C0026;
+}
+.pd-cs-branding-bg,.bg-grey-background,.embs-box {
+  background: #f6f6f6 !important;
+}
+.bg-grey-background {
+  padding: 20px 20px 80px !important;
+}
+.bg-001F5F {
+  background: #001F5F;
+}
+.bg-alt-52B69A{
+  background: #52B69A;
+}
+.bg-FFDD00 {
+  background: #FFDD00;
+}
+.bg-FFFFFF {
+  background: #FFFFFF;
+}
+.cs-design-bg-pegus {
+  background: rgba(29, 99, 204, 0.16);
+}
+.box-bg-3-pegus {
+  background: #09705D;
+}
+.box-bg-4-pegus {
+  background: #5C0C84;
 }
 /*--------------------------------------------------------------
 # UX DESIGN
@@ -2218,7 +2247,7 @@ section {
   .graphs-height img {
     height: auto;
   }
-	#cards-section .mt-170,	#cards-section .mt--40,	#cards-section .mt-120,#mobility-card .card-img-bottom {
+	#cards-section .mt-170,	#cards-section .mt--40,	#cards-section .mt-120,#mobility-card .card-img-bottom, .bg-grey-background img {
 		margin-top: 40px;
 	}
 	#cards-section .card .mb-flex-center, #mobility-card .mobile-mobility-btn{
@@ -2360,7 +2389,7 @@ section {
   #cs-subtract .cs-sub-bg {
     background-image: none;
   }
-  .mobile-pt-30, .mobile-mt-30{
+  .mobile-pt-30, .mobile-mt-30,.bg-grey-background h3{
     padding-top: 30px !important;
   }
   .transalte-y,#cs-design-landing .bg-cards .transalte-y {
