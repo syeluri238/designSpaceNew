@@ -1544,6 +1544,9 @@ section {
 .cs-banner-bg-11 {
   background-image: url(../img/cs-crisil-banner-layer.svg);
 }
+.cs-banner-bg-12 {
+  background-image: url(../img/cs-banner-12-bg.svg);
+} 
 .cs-banner-bg-14 {
   background-image: url(../img/cs-banner-bg-13.png);
 }
@@ -2004,6 +2007,25 @@ section {
 }
 .bg-D70B0B {
   background: #D70B0B;
+}
+.banner-12{
+  right: -200px;
+}
+.box-bg-1-ivs {
+  background: #0577FD;
+}
+.box-bg-2-ivs {
+  background: #FF8B00;
+}
+.box-bg-3-ivs {
+  background: #0B9;
+}
+.box-bg-4-ivs {
+  background: #664278;
+}
+#cs-design-landing-bg {
+  background-image: url(../img/GN65.png);
+  background-repeat: no-repeat;
 }
 /*--------------------------------------------------------------
 # UX DESIGN
