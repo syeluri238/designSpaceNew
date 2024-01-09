@@ -53,7 +53,7 @@ p{
 	font-weight:500;
 }
 .stitle{
-	font-size: 26px;
+	font-size: 24px;
     font-weight: 500;
 }
 .title-tag{
@@ -1457,11 +1457,6 @@ section {
 .cs-banner .cs-banner-list ul,#cs-design .cs-design-list ul, .cs-trans-images ul, .cs-design-list-cricil ul, .user-personal ul{
   list-style: none;
   padding-left: 0;
-}
-.cs-problem-statement p {
-  font-weight: 400;
-  font-size: 18px;
-  color: #000000;
 }
 .transalte-y {
   transform: translateY(-40px);
