@@ -1454,7 +1454,7 @@ section {
 .cs-img{
   width: 95%;
 }
-.cs-banner .cs-banner-list ul,#cs-design .cs-design-list ul, .cs-trans-images ul, .cs-design-list-cricil ul{
+.cs-banner .cs-banner-list ul,#cs-design .cs-design-list ul, .cs-trans-images ul, .cs-design-list-cricil ul, .user-personal ul{
   list-style: none;
   padding-left: 0;
 }
@@ -1547,6 +1547,9 @@ section {
 .cs-banner-bg-12 {
   background-image: url(../img/cs-banner-12-bg.svg);
 } 
+.cs-banner-bg-13 {
+  background-image: url(../img/machiene-1.png);
+}
 .cs-banner-bg-14 {
   background-image: url(../img/cs-banner-bg-13.png);
 }
@@ -2027,6 +2030,49 @@ section {
   background-image: url(../img/GN65.png);
   background-repeat: no-repeat;
 }
+.cx-banner{
+  right: -230px;
+}
+.cx-banner img{
+  height: 320px;
+}
+.box-bg-9-ivs {
+  background: #00A9B8;
+}
+.box-bg-10-ivs {
+  background: #EE6C4D;
+}
+.box-bg-11-ivs {
+  background: #74B503;
+}
+.box-bg-12-ivs {
+  background: #784242;
+}
+.user-personal-1 {
+  background: linear-gradient(270deg, rgba(0, 169, 184, 0.04) 0%, rgba(255, 255, 255, 0.15) 100%);
+  padding: 25px;
+  text-align: right;
+}
+.user-personal-2 {
+  padding: 25px;
+  border-left: 1px solid #D8D8D8;
+}
+.user-personal-3 {
+  text-align: right;
+  padding: 25px;
+  border-top: 1px solid #D8D8D8;
+}
+.user-personal-4 {
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 190, 190, 0.15) 100%);
+  padding: 25px;
+  border-left: 1px solid #D8D8D8;
+  border-top: 1px solid #D8D8D8;
+}
+#cs-design-landing .one-stake-bg{
+  background: #eee;
+    padding: 50px 20px;
+    border: 1px solid rgba(216, 216, 216, 0.70);
+}
 /*--------------------------------------------------------------
 # UX DESIGN
 --------------------------------------------------------------*/
@@ -2505,7 +2551,11 @@ section {
   .transalte-y,#cs-design-landing .bg-cards .transalte-y {
     transform: translateY(0px);
   }
-  .mobile-left-radius,.mobile-right-radius, .bg-cards-bms, #cs-design-landing .bg-cards, .cs-design-bg-new-sec .mobile-radius, .bg-cards-pd{
+  .mobile-left-radius,.mobile-right-radius, .bg-cards-bms, #cs-design-landing .bg-cards, .cs-design-bg-new-sec .mobile-radius, .bg-cards-pd, .one-stake-bg{
     border-radius: 0 !important;
+  }
+  .user-personal .col-md-6 {
+    text-align: left;
+    border:1px solid #efefef;
   }
 }
